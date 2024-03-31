@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//denote functions by caps  =>COMPONENT
+import "./App.css"
+import Herosection from './components/herosection';
+import Navbar from "./components/navbar";
+const App=()=>{
+  return <div>
+    <Navbar></Navbar>
+    <Herosection></Herosection>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  </div>;
 
+};
+
+//default export(outside of the folder)
 export default App;
+
+

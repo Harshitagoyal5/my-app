@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//iske andar se he componenets render horey hai (render)
+//denote fn w caps
+//then we added app as a jsx componenet
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode> 
+    <App></App>
+
   </React.StrictMode>
 );
 
